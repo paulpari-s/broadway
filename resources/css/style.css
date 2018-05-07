@@ -24,16 +24,27 @@ p {
   font-size: 14px;
 }
 
+#home, .title, .footer {
+  color: white;
+}
+
 #home {
   background-image: url("../images/the-flatiron-building.png");
-  color: white;
 }
 
-#home p {
-  font-size: 18px;
-}
-
-.banner {
+.title {
   background-image: url("../images/the-flatiron-building.png");
-  color: white;
+}
+
+.footer {
+  background-color: dimgray;
+  text-align: left;
+}
+
+.footer p {
+  font-size: 11px;
+}
+
+#home p, .footer a {
+  font-size: 18px;
 }
